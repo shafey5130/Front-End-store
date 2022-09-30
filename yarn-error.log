@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /home/twy/.node/corepack/yarn/1.22.15/bin/yarn.js add --save-dev @type/express ts-node nodemon prettier eslint eslint-config-prettier eslint-plugin-prettier jasmine jasmine-spec-reporter yarn @type/typescript typescript
+
+PATH: 
+  /home/twy/.local/bin:/home/twy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/twy/Desktop/par/Programming/flutter/bin:/home/twy/Desktop/par/Programming/flutter/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2ftypescript: Not found
+      at Request.params.callback [as _callback] (/home/twy/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/home/twy/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (/home/twy/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (/home/twy/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
